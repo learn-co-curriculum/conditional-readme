@@ -17,8 +17,9 @@ For example:
 if true
   puts "Goats have rectangular pupils"
 end
+# └── "Goats have rectangular pupils"
 ```
-The code above will print "Goats have rectangular pupils" because `true` is true.
+* The code above will print "Goats have rectangular pupils" because `true` is true.
 
 Meanwhile:
 ```ruby
@@ -26,15 +27,16 @@ if false
   puts "A wolf can eat up to 20 pounds of meat in one sitting"
 end
 ```
-The code above will not print anything because the statement after the `if` is false, which evaluates to false.
+* The code above will not print anything because the statement after the `if` is false, which evaluates to false.
 
 Another example:
 ```ruby
 if 6 + 3 == 9
   puts "Giraffes have no vocal cords"
 end
+# └── "Giraffes have no vocal cords"
 ```
-The code above will print "Giraffes have no vocal cords" because `6 + 3` equals `9` and 9 is equal to 9, therefore the statement that follows `if` is true.
+* The code above will print "Giraffes have no vocal cords" because `6 + 3` equals `9` and 9 is equal to 9, therefore the statement that follows `if` is true.
 
 Final example:
 ```ruby
@@ -42,7 +44,7 @@ if 6 + 3 < 5
   puts "The hummingbird is the only animal that can fly backwards"
 end
 ```
-The code above will not print anything because `6 + 3`, which equals `9`, is greater than five making the statement following the `if` false.
+* The code above will not print anything because `6 + 3`, which equals `9`, is greater than five making the statement following the `if` false.
 
 ## Dog Examples
 ```ruby
