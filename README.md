@@ -8,7 +8,7 @@
 > A control flow construct is a language feature which disrupts the normal progression to the next statement and conditionally or unconditionally branches to another location in source code.                                
 > –– [Robert Klemme](http://blog.rubybestpractices.com/posts/rklemme/004-Control_Flow.html)
 
-In other words, control flow let's you tell your program what code to execute conditionally. As humans, we actually enact flow control *every day*. For intance, if you are hungry, you will go and get a snack. Otherwise, you'll stay put and continue to read this awesome Readme. 
+In other words, control flow let's you tell your program what code to execute conditionally. As humans, we actually enact flow control *every day*. For instance, if you are hungry, you will go and get a snack. Otherwise, you'll stay put and continue to read this awesome Readme. 
 
 Control flow is an important part of Ruby programming and web development. For example, in the context of a web application, you can easily imagine there being content or functionality that is available to a user *if that user is logged in.*
 
@@ -22,7 +22,7 @@ There are a number of ways to tell your program to executed certain code conditi
 
 ###If Statements
 
-One of the most common ways to enact flow control is the `if` statement. Whatever block of code that follows the `if` will get evaluated. If this evaluation results in `true`, then the code from the next line until the end of the `if` will run.
+One of the most common ways to enact flow control is the `if` statement. Whatever block of code that follows the `if` will get evaluated––i.e. read and enacted by the computer. If this evaluation results in `true`, then the code from the next line until the end of the `if` will run.
 
 Let's look at a few examples:
 
@@ -71,6 +71,8 @@ end
 # └── "Giraffes have no vocal cords"
 ```
 * The code above will print "Giraffes have no vocal cords" because `6 + 3` equals `9` and 9 is equal to 9, therefore the statement that follows `if` is true.
+
+**Remember that we use the `==` to check equality. It is called the comparative operator. If the values on either side of the `==` are equal, then the phrase will evaluate to, or return, `true`. This is different than the `=`, which is used to set the value of a variable.*
 
 *Example 2*
 
