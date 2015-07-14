@@ -3,7 +3,7 @@
 ##Objectives
 1. Be able to define flow control in Ruby and understand how it is used when Ruby programs are exectured. 
 2. Understand the different ways to implement flow control
-3. Use `if` statements 
+3. Use `if' and 'case' statements 
 
 ##What is Flow Control?
 > A control flow construct is a language feature which disrupts the normal progression to the next statement and conditionally or unconditionally branches to another location in source code.                                
