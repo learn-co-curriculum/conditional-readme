@@ -9,7 +9,7 @@
 > A control flow construct is a language feature which disrupts the normal progression to the next statement and conditionally or unconditionally branches to another location in source code.                                
 > –– [Robert Klemme](http://blog.rubybestpractices.com/posts/rklemme/004-Control_Flow.html)
 
-In other words, control flow let's you tell your program what code to execute conditionally. As humans, we actually enact flow control *every day*. For instance, if you are hungry, you will go and get a snack. Otherwise, you'll stay put and continue to read this awesome readme. 
+In other words, control flow lets you tell your program what code to execute conditionally. As humans, we actually enact flow control *every day*. For instance, if you are hungry, you will go and get a snack. Otherwise, you'll stay put and continue to read this awesome readme. 
 
 Flow control is an important part of Ruby programming and web development. In the context of a web application, for example, you can easily think of content or functionality on a website you've visited that is only available to a user *if* that user is logged in.
 
