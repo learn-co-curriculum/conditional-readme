@@ -1,9 +1,9 @@
-# Flow Control
+# Control Flow
 
 ## Objectives
-1. Define flow control for when a Ruby program is executed. 
-2. Implement flow control in different ways.
-3. Use `if`, `else`, and `elsif` statements to control flow.
+1. Define control flow for when a Ruby program is executed. 
+2. Implement control flow in different ways.
+3. Use `if`, `else`, and `elsif` statements.
 
 ## What is Flow Control?
 > A control flow construct is a language feature which disrupts the normal progression to the next statement and conditionally or unconditionally branches to another location in source code.                                
@@ -11,9 +11,9 @@
 
 In other words, control flow lets you tell your program what code to execute conditionally. As humans, we actually enact flow control *every day*. For instance, if you are hungry, you will go and get a snack. Otherwise, you'll stay put and continue to read this awesome readme. 
 
-Flow control is an important part of Ruby programming and web development. In the context of a web application, for example, you can easily think of content or functionality on a website you've visited that is only available to a user *if* that user is logged in.
+Control flow is an important part of Ruby programming and web development. In the context of a web application, for example, you can easily think of content or functionality on a website you've visited that is only available to a user *if* that user is logged in.
 
-## Implementing Flow Control
+## Implementing Control Flow
 
 There are a number of ways to tell your program to conditionally execute certain code, the basic forms of which are:
 
@@ -25,7 +25,7 @@ In this reading, we're going to discuss the first group of these "conditional" s
 
 ### `if` Statements
 
-One of the most common ways to enact flow control is the `if` statement. Whatever block of code that follows the `if` statement will get evaluated—i.e. read and enacted by the computer. If this evaluation of the `if` statement results in `true`, then the code through to the associated `end` statement will run.
+One of the most common ways to enact control flow is the `if` statement. Whatever block of code that follows the `if` statement will get evaluated—i.e. read and enacted by the computer. If this evaluation of the `if` statement results in `true`, then the code through to the associated `end` statement will run.
 
 Let's look at a few examples:
 
@@ -103,7 +103,7 @@ end
 ```
 ### `elsif` Statements
 
-Sometimes, we want to control the flow of our program based on more than one condition. For example, if I am hungry, then I will get a snack. If I am thirsty, then I will get a drink of water. Otherwise, I will stay here and continue learning more about flow control.
+Sometimes, we want to control the flow of our program based on more than one condition. For example, if I am hungry, then I will get a snack. If I am thirsty, then I will get a drink of water. Otherwise, I will stay here and continue learning more about control flow.
 
 We can add additional layers of complexity to our `if` and `else` statements by using the `elsif` keyword. 
 
