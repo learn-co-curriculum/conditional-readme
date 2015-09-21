@@ -75,7 +75,7 @@ if 6 + 3 == 9
 end
 # └── "Giraffes have no vocal cords."
 ```
-* The code above will print `Giraffes have no vocal cords` Since `6 + 3` equals `9` (i.e. `9` is equal to `9`), the `if` statement's conditional evaluates as `true`.
+* The code above will print `Giraffes have no vocal cords.` Since `6 + 3` equals `9` (i.e. `9` is equal to `9`), the `if` statement's conditional evaluates as `true`.
 
 **Top-tip:** *Remember that the comparative operator* `==` *("double-equals") is used to check equality. This is distinct from the assignment operator* `=`*("single-equals"), which is used to set the value of a variable.*
 
