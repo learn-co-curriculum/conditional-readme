@@ -5,6 +5,11 @@
 2. Implement control flow in different ways.
 3. Use `if`, `else`, and `elsif` statements.
 
+## Video
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dcNgPOZCaBk" frameborder="0"
+allowfullscreen></iframe><p><a href="https://www.youtube.com/watch?v=dcNgPOZCaBk">Ruby Conditionals</a></p>
+
+
 ## What is Flow Control?
 > A control flow construct is a language feature which disrupts the normal progression to the next statement and conditionally or unconditionally branches to another location in source code.                                
 > –– [Robert Klemme](http://blog.rubybestpractices.com/posts/rklemme/004-Control_Flow.html)
