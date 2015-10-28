@@ -1,7 +1,7 @@
 # Control Flow
 
 ## Objectives
-1. Define control flow for when a Ruby program is executed. 
+1. Define control flow for when a Ruby program is executed.
 2. Implement control flow in different ways.
 3. Use `if`, `else`, and `elsif` statements.
 
@@ -9,12 +9,11 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dcNgPOZCaBk" frameborder="0"
 allowfullscreen></iframe><p><a href="https://www.youtube.com/watch?v=dcNgPOZCaBk">Ruby Conditionals</a></p>
 
-
 ## What is Flow Control?
 > A control flow construct is a language feature which disrupts the normal progression to the next statement and conditionally or unconditionally branches to another location in source code.                                
 > –– [Robert Klemme](http://blog.rubybestpractices.com/posts/rklemme/004-Control_Flow.html)
 
-In other words, control flow lets you tell your program what code to execute conditionally. As humans, we actually enact flow control *every day*. For instance, if you are hungry, you will go and get a snack. Otherwise, you'll stay put and continue to read this awesome readme. 
+In other words, control flow lets you tell your program what code to execute conditionally. As humans, we actually enact flow control *every day*. For instance, if you are hungry, you will go and get a snack. Otherwise, you'll stay put and continue to read this awesome readme.
 
 Control flow is an important part of Ruby programming and web development. In the context of a web application, for example, you can easily think of content or functionality on a website you've visited that is only available to a user *if* that user is logged in.
 
@@ -35,33 +34,32 @@ One of the most common ways to enact control flow is the `if` statement. Whateve
 Let's look at a few examples:
 
 ```ruby
-if true
-  puts "Goats have rectangular pupils."
+if 5 > 2
+  print "5 is greater than 2"
 end
-# └── "Goats have rectangular pupils."
 ```
-* The code above will print `Goats have rectangular pupils.` because `true` evaluates as `true`.
+* The code above will print "5 is greater than 2" because the `if` statement evaluates as `true`.
 
 Meanwhile:
 
 ```ruby
-if false
-  puts "A wolf can eat up to 20 pounds of meat in one sitting."
+if 2 > 5
+  puts "2 is greater than 5"
 end
 ```
 * The code above will not print anything because the `if` statement evaluates as `false`.
 
-So what if we want our program to print something *else* when the `if` condition evaluates as `false`? 
+So what if we want our program to print something *else* when the `if` condition evaluates as `false`?
 
 ### The `else` Keyword
 
 To accomplish this, we can follow an `if` statement with an `else` statement. Take a look:
 
-```ruby 
-if false 
+```ruby
+if false
    puts "This will never get printed because the above
      statement evaluates to false."
-else 
+else
    puts "This will get printed!"
 end
 ```
@@ -70,7 +68,7 @@ An `else` statement sets a "default" condition for when your `if` statement's co
 
 ##### Further Examples
 
-So far, we've seen `if` statements that rely on the explicit use of the `true` and `false` booleans. Let's look at some examples that require a little more thought. 
+So far, we've seen `if` statements that rely on the explicit use of the `true` and `false` booleans. Let's look at some examples that require a little more thought.
 
 ###### Example 1
 
@@ -110,7 +108,7 @@ end
 
 Sometimes, we want to control the flow of our program based on more than one condition. For example, if I am hungry, then I will get a snack. If I am thirsty, then I will get a drink of water. Otherwise, I will stay here and continue learning more about control flow.
 
-We can add additional layers of complexity to our `if` and `else` statements by using the `elsif` keyword. 
+We can add additional layers of complexity to our `if` and `else` statements by using the `elsif` keyword.
 
 Let's add an `elsif` statement to Example 3 from above:
 
@@ -148,4 +146,4 @@ end
 #  └── "Snuggling."
 ```
 
-That's all for now—we'll discuss `case` statements and looping in upcoming lessons. 
+That's all for now—we'll discuss `case` statements and looping in upcoming lessons.
