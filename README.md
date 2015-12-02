@@ -147,3 +147,5 @@ end
 ```
 
 That's all for now—we'll discuss `case` statements and looping in upcoming lessons.
+
+<a href='https://learn.co/lessons/conditional-readme' data-visibility='hidden'>View this lesson on Learn.co</a>
