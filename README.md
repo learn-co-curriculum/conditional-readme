@@ -40,6 +40,8 @@ code, the basic forms of which are:
 In this reading, we're going to discuss the first group of these "conditional"
 statements: `if`, `else`, and `elsif`.
 
+Use IRB, copying the provided code snippets, to follow along in this lesson.
+
 ### `if` Statements
 
 One of the most common ways to enact control flow is the `if` statement.
