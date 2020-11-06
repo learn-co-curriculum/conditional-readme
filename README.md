@@ -188,5 +188,23 @@ end
 #=> "Snuggling."
 ```
 
+## Conclusion
+
+In this lesson, we learned how to use control flow to execute code
+conditionally. Specifically, we learned:
+
+- how to use an `if` statement to execute code only if a certain condition is
+  true
+
+- that we can *optionally* use one or more `elsif` statements if we need to
+  check multiple conditions and execute different code for each of them
+
+- that we can *optionally* use an `else` statement if we want to specify
+  "default" code that should execute if the condition(s) we are checking
+  all evaluate as false
+
+- the order of the statements must be: `if` first, followed by any `elsif`s,
+  and `else`, if used, last
+
 That's all for now &mdash; we'll discuss `case` statements and looping in upcoming
 lessons.
