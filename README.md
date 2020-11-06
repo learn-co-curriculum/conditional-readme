@@ -16,7 +16,7 @@ allowfullscreen></iframe><p><a href="https://www.youtube.com/watch?v=dcNgPOZCaBk
 > A control flow construct is a language feature which disrupts the normal
 > progression to the next statement and conditionally or unconditionally
 > branches to another location in source code.
-> –– [Robert Klemme](http://blog.rubybestpractices.com/posts/rklemme/004-Control_Flow.html)
+> &mdash; [Robert Klemme](http://blog.rubybestpractices.com/posts/rklemme/004-Control_Flow.html)
 
 In other words, control flow lets you tell your program what code to execute
 conditionally. As humans, we actually enact flow control *every day*. For
@@ -103,7 +103,7 @@ thought.
 if 6 + 3 == 9
   puts "Giraffes have no vocal cords."
 end
-# └── "Giraffes have no vocal cords."
+#=> "Giraffes have no vocal cords."
 ```
 
 - The code above will print `Giraffes have no vocal cords.` Since `6 + 3` equals
@@ -112,7 +112,7 @@ end
 
 **Top-tip:** *Remember that the comparative operator* `==` *("double-equals") is
 used to check equality. This is distinct from the assignment operator*
-`=`*("single-equals"), which is used to set the value of a variable.*
+`=` *("single-equals"), which is used to set the value of a variable.*
 
 ##### Example 2
 
@@ -137,7 +137,7 @@ else
   puts "Reading newspaper."
 end
 
-#  └── "Reading newspaper."
+#=> "Reading newspaper."
 ```
 
 ### `elsif` Statements
@@ -163,7 +163,7 @@ else
   puts "Reading newspaper."
 end
 
-#  └── "Refilling water bowl."
+#=> "Refilling water bowl."
 ```
 
 We can cascade as many `elsif` statements as we wish, however `elsif` statements
@@ -185,10 +185,8 @@ else
   puts "Reading newspaper."
 end
 
-#  └── "Snuggling."
+#=> "Snuggling."
 ```
 
-That's all for now—we'll discuss `case` statements and looping in upcoming
+That's all for now &mdash; we'll discuss `case` statements and looping in upcoming
 lessons.
-
-
