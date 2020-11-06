@@ -45,10 +45,10 @@ Use IRB, copying the provided code snippets, to follow along in this lesson.
 ### `if` Statements
 
 One of the most common ways to enact control flow is the `if` statement.
-Whatever block of code that follows the `if` statement will get evaluated—i.e.
-read and enacted by the computer. If this evaluation of the `if` statement
-results in `true`, then the code through to the associated `end` statement will
-run.
+Whatever block of code that follows the `if` statement will get evaluated
+&mdash; i.e. read and enacted by the computer. If this evaluation of the `if`
+statement results in `true`, then the code through to the associated `end`
+statement will run.
 
 Let's look at a few examples:
 
@@ -196,10 +196,10 @@ conditionally. Specifically, we learned:
 - how to use an `if` statement to execute code only if a certain condition is
   true
 
-- that we can *optionally* use one or more `elsif` statements if we need to
+- we can *optionally* use one or more `elsif` statements if we need to
   check multiple conditions and execute different code for each of them
 
-- that we can *optionally* use an `else` statement if we want to specify
+- we can *optionally* use an `else` statement if we want to specify
   "default" code that should execute if the condition(s) we are checking
   all evaluate as false
 
