@@ -16,7 +16,7 @@ allowfullscreen></iframe><p><a href="https://www.youtube.com/watch?v=dcNgPOZCaBk
 > A control flow construct is a language feature which disrupts the normal
 > progression to the next statement and conditionally or unconditionally
 > branches to another location in source code.
-> &mdash; [Robert Klemme](http://blog.rubybestpractices.com/posts/rklemme/004-Control_Flow.html)
+> &mdash; [Robert Klemme](https://web.archive.org/web/20160331230640/http://blog.rubybestpractices.com/posts/rklemme/004-Control_Flow.html)
 
 In other words, control flow lets you tell your program what code to execute
 conditionally. As humans, we actually enact flow control *every day*. For
