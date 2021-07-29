@@ -6,11 +6,6 @@
 - Implement control flow in different ways.
 - Use `if`, `else`, and `elsif` statements.
 
-## Video
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dcNgPOZCaBk" frameborder="0"
-allowfullscreen></iframe><p><a href="https://www.youtube.com/watch?v=dcNgPOZCaBk">Ruby Conditionals</a></p>
-
 ## Define Control Flow
 
 > A control flow construct is a language feature which disrupts the normal
